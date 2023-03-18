@@ -223,7 +223,7 @@
 .overview {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid var(--color-grey-light-2);
+    border-bottom:var(--line);
 
     &__heading {
       font-size: 2.25rem;
@@ -328,3 +328,22 @@
         box-shadow: none;
     }
 }
+
+////////////////////////////////
+/// PARAGRAPH
+.paragraph:not(:last-of-type) {
+    margin-bottom: 2rem;
+}
+
+////////////////////////////////
+/// LIST
+.list {
+    list-style: none;
+    margin: 3rem 0;
+    padding: 3rem 0;
+    border-top: var(--line);
+    border-bottom: var(--line);
+}
+
+////////////////////////////////
+/// RECOMMEND
