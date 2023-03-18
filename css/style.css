@@ -262,3 +262,17 @@ body {
 .hotel-view {
   background-color: #fff;
   flex: 1; }
+
+.detail {
+  display: flex;
+  padding: 4.5rem;
+  background-color: var(--color-grey-light-1); }
+
+.description {
+  background-color: orangered;
+  flex: 0 0 60%;
+  margin-right: 4.5rem; }
+
+.user-reviews {
+  background-color: dodgerblue;
+  flex: 1; }
